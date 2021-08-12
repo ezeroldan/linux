@@ -72,6 +72,8 @@ public protocol View {
 ```swift
 Text("Hello World")
 ```
+- 
+
 
 ### Label
 ```swift
@@ -278,6 +280,19 @@ Button(
     },
     label: { Text("Click Me") }
 )
+```
+
+```swift
+Button("Click Me", action: {
+    print("hola")
+})
+```
+
+```swift
+//Trailing Closure
+Button("Click Me") {
+    print("hola")
+}
 ```
 
 #####  ButtonStyle

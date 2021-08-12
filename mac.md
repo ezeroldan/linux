@@ -129,6 +129,9 @@ include /usr/local/share/nano/*.nanorc
 ## xCode
 - https://github.com/Jintin/Swimat/
 - https://developer.apple.com/sf-symbols/
+- https://cocoapods.org/
+brew install --cask sf-symbols
+https://github.com/nicklockwood/SwiftFormat
 
 ## Otros
 - https://github.com/kmikiy/SpotMenu#easy-install

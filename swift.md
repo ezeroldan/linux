@@ -236,7 +236,19 @@ func swapGeneric<T> (a: inout T, b: inout T) {
 ```
 
 ### Closures
-PENDIENTE
+
+
+
+## Trailing Closure
+```swift
+func prueba(accion: () -> Void) -> Void {
+    accion()
+}
+
+prueba {
+    print("Hola")
+}
+```
 
 ## Computed Variables
 - The variable must be declared with `var`
