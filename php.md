@@ -6,6 +6,7 @@
 ```bash
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update -y
+sudo apt install openssl 
 ```
 
 #### PHP 7.4
@@ -40,7 +41,7 @@ sudo apt install -y \
     php7.2-zip \
     php7.2-mysql \
     php7.2-xml \
-    php7.2-sqlite3 
+    php7.2-sqlite3 \
     php7.2-mysql \
     php7.2-pgsql \
     php7.2-soap \
